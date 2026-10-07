@@ -3,322 +3,288 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>שיא הנחלה נתיבות | דירות 3-5 חדרים, דירות גן ודופלקסים | שיא רפאל פרוייקטים</title>
-  <meta name="description" content="פרויקט שיא הנחלה בשכונת מעלות הנחל, נתיבות: 14 בניינים, 488 יח״ד, דירות 3-5 חדרים, דירות גן, דופלקסים ופנטהאוזים. השאירו פרטים וקבלו מחירון ותוכניות דירה.">
+  <title>שיא הנחלה - שיא רפאל פרוייקטים בע״מ</title>
+  <meta name="description" content="פרויקט שיא הנחלה בשכונת מעלות הנחל, נתיבות: 14 בניינים, 488 יח״ד, דירות 3-5 חדרים, דירות גן, דופלקסים ופנטהאוזים. השאירו פרטים ונחזור אליכם.">
   <meta name="robots" content="noindex, follow">
   <link rel="icon" href="https://crp.co.il/wp-content/uploads/2026/02/cropped-favicon-32x32.png">
 
   <meta property="og:locale" content="he_IL">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="שיא הנחלה נתיבות | דירות חדשות בשיווק">
-  <meta property="og:description" content="14 בניינים, 488 יח״ד, דירות 3-5 חדרים, דירות גן ודופלקסים בשכונת מעלות הנחל. השאירו פרטים לקבלת מחירון.">
+  <meta property="og:title" content="שיא הנחלה - שיא רפאל פרוייקטים בע״מ">
+  <meta property="og:description" content="14 בניינים, 488 יח״ד, דירות 3-5 חדרים, דירות גן ודופלקסים בשכונת מעלות הנחל, נתיבות.">
   <meta property="og:image" content="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_D.webp">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&family=Frank+Ruhl+Libre:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/config.js"></script>
 </head>
 <body>
 
-<!-- ===== Top bar ===== -->
-<header class="topbar">
-  <div class="container topbar__inner">
-    <a href="#top" class="topbar__logo" aria-label="שיא רפאל פרוייקטים">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/logo_black.svg" alt="שיא רפאל פרוייקטים בע״מ" class="topbar__logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
-      <span class="topbar__logo-text" style="display:none">שיא רפאל פרוייקטים</span>
-    </a>
-    <nav class="topbar__nav" aria-label="ניווט">
-      <a href="#about">הפרויקט</a>
-      <a href="#plans">תוכניות</a>
-      <a href="#gallery">גלריה</a>
-      <a href="#location">מיקום</a>
-    </nav>
-    <div class="topbar__actions">
-      <a class="btn btn--ghost topbar__phone" data-tel href="#"><span class="ico ico-phone"></span><span data-phone-text></span></a>
-      <a class="btn btn--gold" href="#lead">לקבלת מחירון</a>
-    </div>
-  </div>
-</header>
+<!-- SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-location" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M12 21s-6-5.4-6-10.5a6 6 0 0 1 12 0C18 15.6 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M4 21V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v16M14 9h5a1 1 0 0 1 1 1v11M3 21h18M7 7h2M7 11h2M7 15h2M11 7h-1M11 11h-1M11 15h-1M17 13h1M17 17h1"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9-9-9z"/><circle cx="8" cy="8" r="1.4" fill="currentColor"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path fill="none" stroke="currentColor" stroke-width="1.6" d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8c.1.2 1.9 2.9 4.6 4 1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></symbol>
+</svg>
 
-<main id="top">
+<div class="frame">
 
-  <!-- ===== Hero ===== -->
-  <section class="hero" id="hero">
-    <div class="hero__media" aria-hidden="true">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_D.webp" alt="" class="hero__img" fetchpriority="high">
-      <div class="hero__overlay"></div>
-    </div>
-
-    <div class="container hero__inner">
-      <div class="hero__content">
-        <div class="hero__badges">
-          <span class="badge badge--live"><span class="badge__dot"></span>בשיווק עכשיו</span>
-          <span class="badge badge--outline">מעלות הנחל, נתיבות</span>
-        </div>
-        <img src="https://crp.co.il/wp-content/uploads/2026/02/logo-hanahala.webp" alt="שיא הנחלה" class="hero__project-logo" onerror="this.remove()">
-        <h1 class="hero__title">הבית החדש שלכם<br><em>בשיא הנחלה, נתיבות</em></h1>
-        <p class="hero__sub">14 בניינים בתכנון אדריכלי מוקפד בשכונה החדשה והמבוקשת בנתיבות. דירות 3, 4 ו-5 חדרים, דירות גן, דופלקסים ופנטהאוזים, עם מפרט עשיר ואיכות בנייה גבוהה.</p>
-
-        <ul class="hero__stats">
-          <li><strong>488</strong><span>יחידות דיור</span></li>
-          <li><strong>14</strong><span>בניינים</span></li>
-          <li><strong>3-5</strong><span>חדרים</span></li>
-          <li><strong>גן · דופלקס · פנטהאוז</strong><span>תמהיל מגוון</span></li>
-        </ul>
-
-        <div class="hero__cta-mobile">
-          <a href="#lead" class="btn btn--gold btn--lg btn--block">לקבלת מחירון ותוכניות</a>
-          <a data-wa href="#" class="btn btn--wa btn--lg btn--block"><span class="ico ico-wa"></span>דברו איתנו בוואטסאפ</a>
-        </div>
-      </div>
-
-      <!-- Hero lead form (desktop) -->
-      <div class="hero__form card" id="lead">
-        <div class="card__head">
-          <span class="card__eyebrow">הרשמה לקבלת פרטים</span>
-          <h2 class="card__title">קבלו מחירון, תוכניות דירה ותנאי מימון</h2>
-          <p class="card__sub">נציג מכירות יחזור אליכם תוך זמן קצר, ללא התחייבות</p>
-        </div>
-        <form class="lead-form" data-lead-form data-source="hero" novalidate>
-          <div class="field">
-            <label for="h-name">שם מלא</label>
-            <input id="h-name" name="name" type="text" autocomplete="name" required placeholder="ישראל ישראלי">
-          </div>
-          <div class="field">
-            <label for="h-phone">טלפון נייד</label>
-            <input id="h-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="050-0000000" dir="ltr">
-          </div>
-          <div class="field">
-            <label for="h-rooms">מה מעניין אתכם?</label>
-            <select id="h-rooms" name="rooms">
-              <option value="">בחרו סוג דירה (לא חובה)</option>
-              <option>3 חדרים</option>
-              <option>4 חדרים</option>
-              <option>5 חדרים</option>
-              <option>דירת גן</option>
-              <option>דופלקס גן</option>
-              <option>פנטהאוז</option>
-              <option>דירת גלריה</option>
-              <option>עדיין לא יודע/ת</option>
-            </select>
-          </div>
-          <label class="consent">
-            <input type="checkbox" name="consent" required>
-            <span>אני מאשר/ת קבלת פנייה טלפונית ומסרונים בנוגע לפרויקט ומסכים/ה ל<a href="https://crp.co.il/privacy-policy/" target="_blank" rel="noopener">מדיניות הפרטיות</a></span>
-          </label>
-          <button type="submit" class="btn btn--gold btn--lg btn--block">
-            <span class="btn__label">תחזרו אליי</span>
-            <span class="btn__spinner" aria-hidden="true"></span>
-          </button>
-          <p class="form__error" role="alert" hidden></p>
-          <p class="form__trust"><span class="ico ico-lock"></span>הפרטים שלכם נשמרים אצלנו בלבד ולא יועברו לצד שלישי</p>
-        </form>
-        <div class="lead-form__success" hidden>
-          <div class="success__icon">✓</div>
-          <h3>תודה! הפרטים התקבלו</h3>
-          <p>נציג מכירות של שיא הנחלה ייצור איתכם קשר בהקדם.</p>
-          <a data-wa href="#" class="btn btn--wa btn--block"><span class="ico ico-wa"></span>רוצים תשובה עכשיו? דברו איתנו בוואטסאפ</a>
-        </div>
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="header__inner">
+      <nav class="header__nav" aria-label="ניווט">
+        <button class="header__burger" type="button" aria-label="תפריט" data-menu-toggle><svg class="ico"><use href="#i-menu"/></svg></button>
+        <a href="#project-about">אודות הפרויקט</a>
+        <a href="#project-design">גלריה</a>
+        <a href="#project-apartment-plans">תוכניות דירה</a>
+      </nav>
+      <a class="header__logo" href="#top" aria-label="שיא רפאל פרוייקטים">
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/LOGO-1.svg" alt="שיא רפאל פרוייקטים בע״מ">
+      </a>
+      <div class="header__actions">
+        <a data-mail href="#" class="header__icon" aria-label="אימייל"><svg class="ico"><use href="#i-mail"/></svg></a>
+        <a data-tel href="#" class="header__icon" aria-label="טלפון"><svg class="ico"><use href="#i-phone"/></svg></a>
+        <a href="#project-contact-us" class="header__cta">יצירת קשר</a>
       </div>
     </div>
-  </section>
+    <div class="header__mobile" data-menu hidden>
+      <a href="#project-about">אודות הפרויקט</a>
+      <a href="#project-location">מיקום</a>
+      <a href="#project-design">גלריה</a>
+      <a href="#project-apartment-plans">תוכניות דירה</a>
+      <a href="#project-contact-us">דברו איתנו</a>
+    </div>
+  </header>
 
-  <!-- ===== Why / USPs ===== -->
-  <section class="usps" id="why">
-    <div class="container">
-      <ul class="usps__list">
-        <li><span class="usps__ico">🏗️</span><strong>יזם מנוסה</strong><span>שיא רפאל פרוייקטים, חברה עם פרויקטים מאוכלסים</span></li>
-        <li><span class="usps__ico">📐</span><strong>תכנון חכם</strong><span>חללים פתוחים, אור טבעי וזרימה נכונה בין פנים לחוץ</span></li>
-        <li><span class="usps__ico">🌳</span><strong>שכונה חדשה</strong><span>מעלות הנחל: מרחבים ירוקים וקהילה צעירה</span></li>
-        <li><span class="usps__ico">🛣️</span><strong>נגישות</strong><span>קרוב לצירי תנועה, מסחר ושירותים עירוניים</span></li>
+  <main id="top">
+
+    <!-- ===== Hero ===== -->
+    <section id="project-start-section" class="start">
+      <div class="start__slider" data-hero>
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_19_01_D.webp" alt="" class="is-active" fetchpriority="high">
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_04_D.webp" alt="" loading="lazy">
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_N.webp" alt="" loading="lazy">
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_D.webp" alt="" loading="lazy">
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_05_D.webp" alt="" loading="lazy">
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_04_D.webp" alt="" loading="lazy">
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_03_D.webp" alt="" loading="lazy">
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_02_D.webp" alt="" loading="lazy">
+      </div>
+      <div class="start__pagination" data-hero-dots aria-hidden="true"></div>
+
+      <div class="start__card">
+        <span class="start__category">בשיווק</span>
+        <h1 class="start__title">שיא הנחלה</h1>
+        <div class="start__params">
+          <span><svg class="ico"><use href="#i-location"/></svg>נתיבות</span>
+          <span><svg class="ico"><use href="#i-building"/></svg>488 <small>יח”ד</small></span>
+          <span><svg class="ico"><use href="#i-tag"/></svg>מגורים + מסחר</span>
+        </div>
+        <a href="#project-contact-us" class="start__mobile-cta">לפרטים ומחירון</a>
+      </div>
+
+      <ul class="start__nav" aria-label="ניווט בעמוד">
+        <li><a href="#project-about"><span>ברוכים הבאים לשיא הנחלה</span></a></li>
+        <li><a href="#project-location"><span>נתיבות-תנופה עם זהות</span></a></li>
+        <li><a href="#project-design"><span>גלריה</span></a></li>
+        <li><a href="#project-apartment-plans"><span>תוכניות דירה</span></a></li>
+        <li><a href="#project-contact-us"><span>דברו איתנו</span></a></li>
       </ul>
-    </div>
-  </section>
 
-  <!-- ===== About ===== -->
-  <section class="about section" id="about">
-    <div class="container about__grid">
-      <div class="about__text">
-        <span class="eyebrow">welcome</span>
-        <h2 class="h2 gold-line">ברוכים הבאים לשיא הנחלה</h2>
-        <h3 class="h3">חזון של מגורים</h3>
-        <p>פרויקט "שיא הנחלה" הוא מתחם מגורים מוקפד, המורכב מ-14 בניינים בתכנון אדריכלי מדויק, היוצרים מרקם מגורים הרמוני ומאוזן. זהו פרויקט שנולד מתוך מחשבה על איכות חיים אמיתית: שילוב של תכנון חכם, קהילה מתגבשת וסטנדרט בנייה גבוה, הניכר בכל פרט.</p>
-        <h3 class="h3">אדריכלות של איכות חיים</h3>
-        <p>תמהיל הדירות מגוון ומוקפד וכולל דירות 3, 4 ו-5 חדרים, דירות גן רחבות ידיים, דופלקסי קרקע, פנטהאוזים מרשימים ודירות גלריה ייחודיות. כל יחידה תוכננה מתוך תפיסה של חלל פתוח, אור טבעי וזרימה נכונה בין הפנים לחוץ, עם מפרט עשיר וחומרי גמר איכותיים. התחושה המתקבלת היא של בית שתוכנן בקפידה, לא רק למגורים, אלא לאורח חיים.</p>
-        <a href="#lead" class="btn btn--dark">רוצה לשמוע עוד? השאירו פרטים</a>
+    </section>
+
+    <!-- ===== About / Welcome ===== -->
+    <section id="project-about" class="about">
+      <div class="about__deco" aria-hidden="true"><span class="about__arc"></span><span class="about__arc about__arc--2"></span></div>
+      <div class="about__badge">
+        <img src="https://crp.co.il/wp-content/uploads/2026/02/logo-hanahala.webp" alt="שיא הנחלה">
       </div>
-      <div class="about__media">
-        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_N.webp" alt="הדמיית הפרויקט בלילה" loading="lazy">
-        <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_05_D.webp" alt="הדמיית חזית" loading="lazy" class="about__media-small">
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Apartment types ===== -->
-  <section class="types section section--tint" id="types">
-    <div class="container">
-      <span class="eyebrow">apartments</span>
-      <h2 class="h2 gold-line">תמהיל דירות לכל משפחה</h2>
-      <div class="types__grid">
-        <article class="type-card"><h3>דירות 3 חדרים</h3><p>פתרון מושלם לזוגות צעירים ולמשקיעים. תכנון יעיל ומרפסת שמש.</p><a href="#lead" data-prefill="3 חדרים">לפרטים ומחיר ›</a></article>
-        <article class="type-card"><h3>דירות 4 חדרים</h3><p>דירת המשפחה הקלאסית, עם חלל ציבורי רחב וממ״ד.</p><a href="#lead" data-prefill="4 חדרים">לפרטים ומחיר ›</a></article>
-        <article class="type-card"><h3>דירות 5 חדרים</h3><p>למשפחות שרוצות מרחב. חדרי שינה גדולים ומרפסת מרווחת.</p><a href="#lead" data-prefill="5 חדרים">לפרטים ומחיר ›</a></article>
-        <article class="type-card type-card--hl"><h3>דירות גן</h3><p>דירות גן רחבות ידיים עם חצר פרטית. מספר יחידות מוגבל.</p><a href="#lead" data-prefill="דירת גן">לפרטים ומחיר ›</a></article>
-        <article class="type-card type-card--hl"><h3>דופלקסי גן 5 חד׳</h3><p>שתי קומות, גינה וחוויית בית פרטי בתוך פרויקט.</p><a href="#lead" data-prefill="דופלקס גן">לפרטים ומחיר ›</a></article>
-        <article class="type-card type-card--hl"><h3>פנטהאוזים ודירות גלריה</h3><p>נוף פתוח, מרפסות ענק ותכנון ייחודי בקומות העליונות.</p><a href="#lead" data-prefill="פנטהאוז">לפרטים ומחיר ›</a></article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Floor plans ===== -->
-  <section class="plans section" id="plans">
-    <div class="container">
-      <span class="eyebrow">floor plans</span>
-      <h2 class="h2 gold-line">תוכניות דירה</h2>
-      <p class="section__lead">בחרו סוג דירה לצפייה בתוכנית. את התוכניות המלאות, המפרט והמחירון נשלח אליכם אחרי השארת פרטים.</p>
-
-      <div class="plans__tabs" role="tablist" aria-label="תוכניות דירה">
-        <button role="tab" aria-selected="true" data-plan="A">A · 3 חד׳</button>
-        <button role="tab" data-plan="A1">A1 · 3 חד׳</button>
-        <button role="tab" data-plan="AG">GA · דירת גן 3 חד׳</button>
-        <button role="tab" data-plan="B">B · 4 חד׳</button>
-        <button role="tab" data-plan="B1">B1 · 4 חד׳</button>
-        <button role="tab" data-plan="B2">B2 · 4 חד׳</button>
-        <button role="tab" data-plan="B2G">B2G · דופלקס גן 5 חד׳</button>
-        <button role="tab" data-plan="B2G1">B2G1 · דופלקס גן 5 חד׳</button>
-      </div>
-
-      <div class="plans__stage">
-        <figure class="plans__figure">
-          <img id="plan-img" src="https://crp.co.il/wp-content/uploads/2026/02/A.webp" alt="תוכנית דירה A - 3 חדרים" loading="lazy">
-          <figcaption id="plan-caption">A - דירה 3 חד'</figcaption>
-        </figure>
-        <aside class="plans__side">
-          <h3>רוצים את כל התוכניות בקובץ אחד?</h3>
-          <p>נשלח לכם את חוברת הפרויקט המלאה עם תוכניות, מפרט טכני ומחירון עדכני.</p>
-          <a href="#lead" class="btn btn--gold btn--block">שלחו לי את החוברת</a>
-          <small>התוכניות להמחשה בלבד. ט.ל.ח.</small>
-        </aside>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Gallery ===== -->
-  <section class="gallery section section--dark" id="gallery">
-    <div class="container">
-      <span class="eyebrow eyebrow--light">design</span>
-      <h2 class="h2 gold-line gold-line--light">גלריה</h2>
-    </div>
-    <div class="gallery__track" data-gallery>
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_N.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_06_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_05_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_04_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_03_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_02_N.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_02_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_01_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_19_02_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_19_01_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_02_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_03_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_04_D.webp" alt="הדמיה" loading="lazy">
-      <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_05_D.webp" alt="הדמיה" loading="lazy">
-    </div>
-    <div class="container gallery__controls">
-      <button class="gal-btn" data-gal-prev aria-label="הקודם">‹</button>
-      <small>הדמיות להמחשה בלבד</small>
-      <button class="gal-btn" data-gal-next aria-label="הבא">›</button>
-    </div>
-  </section>
-
-  <!-- ===== Location ===== -->
-  <section class="location section" id="location">
-    <div class="container location__grid">
-      <div class="location__text">
-        <span class="eyebrow">location</span>
-        <h2 class="h2 gold-line">נתיבות: תנופה עם זהות</h2>
-        <p>הפרויקט ממוקם בשכונת מעלות הנחל, אחת השכונות החדשות והמתפתחות בנתיבות, אזור המאופיין בתכנון מודרני, מרחבים פתוחים וסביבה קהילתית נעימה. המיקום מאפשר ליהנות משקט ואינטימיות, לצד נגישות נוחה לצירי תנועה מרכזיים, מרכזים מסחריים ושירותים עירוניים. זהו איזון מדויק בין פרטיות לנוחות יומיומית.</p>
-        <ul class="checks">
-          <li>שכונה חדשה בתכנון מודרני</li>
-          <li>מרחבים פתוחים וסביבה קהילתית</li>
-          <li>נגישות לצירי תנועה מרכזיים</li>
-          <li>קרבה למרכזים מסחריים ושירותים עירוניים</li>
-        </ul>
-        <a href="#lead" class="btn btn--dark">לתיאום פגישה במשרד המכירות</a>
-      </div>
-      <div class="location__map">
-        <iframe title="מפה: מעלות הנחל, נתיבות" src="https://www.google.com/maps?q=%D7%9E%D7%A2%D7%9C%D7%95%D7%AA+%D7%94%D7%A0%D7%97%D7%9C%2C+%D7%A0%D7%AA%D7%99%D7%91%D7%95%D7%AA&z=14&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FAQ ===== -->
-  <section class="faq section section--tint" id="faq">
-    <div class="container faq__inner">
-      <span class="eyebrow">faq</span>
-      <h2 class="h2 gold-line">שאלות נפוצות</h2>
-      <details open><summary>אילו סוגי דירות יש בפרויקט?</summary><p>דירות 3, 4 ו-5 חדרים, דירות גן, דופלקסי קרקע, פנטהאוזים ודירות גלריה. התמהיל המלא והזמינות העדכנית נשלחים אחרי השארת פרטים.</p></details>
-      <details><summary>מה המחירים?</summary><p>המחירון משתנה לפי סוג הדירה, הקומה והכיוון. השאירו פרטים ונציג ישלח לכם מחירון עדכני ותנאי תשלום.</p></details>
-      <details><summary>איפה בדיוק ממוקם הפרויקט?</summary><p>בשכונת מעלות הנחל, השכונה החדשה של נתיבות, בקרבת צירי תנועה ראשיים ומרכזי מסחר.</p></details>
-      <details><summary>מי היזם?</summary><p>שיא רפאל פרוייקטים בע״מ, חברה יזמית עם פרויקטים בשיווק ופרויקטים מאוכלסים. משרדי החברה ברחוב הדסה 27, באר שבע.</p></details>
-      <details><summary>אפשר לקבוע פגישה?</summary><p>בהחלט. השאירו פרטים או התקשרו ונתאם פגישה במשרד המכירות, ימים א׳-ה׳ בין 9:00 ל-16:00.</p></details>
-    </div>
-  </section>
-
-  <!-- ===== Bottom CTA + form ===== -->
-  <section class="final section section--dark" id="contact">
-    <div class="final__bg" aria-hidden="true"><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_02_N.webp" alt="" loading="lazy"></div>
-    <div class="container final__grid">
-      <div class="final__text">
-        <h2 class="h2 h2--light">דברו איתנו</h2>
-        <p>מוזמנים להשאיר פרטים ונחזור אליכם בהקדם האפשרי. נציג המכירות ישלח לכם מחירון, תוכניות ויתאם אתכם פגישה.</p>
-        <div class="final__contact">
-          <a data-tel href="#"><span class="ico ico-phone"></span><span data-phone-text></span></a>
-          <a data-wa href="#"><span class="ico ico-wa"></span>וואטסאפ</a>
-          <span><span class="ico ico-clock"></span>ראשון עד חמישי: 9:00 – 16:00</span>
+      <div class="container">
+        <div class="heading heading--light">
+          <span class="heading__en">welcome</span>
+          <h2 class="heading__he">ברוכים הבאים לשיא הנחלה</h2>
+          <span class="heading__line"></span>
+        </div>
+        <div class="about__row">
+          <div class="about__body">
+            <h3 class="about__subtitle">חזון של מגורים</h3>
+            <p>פרויקט "שיא הנחלה" הוא מתחם מגורים מוקפד, המורכב מ-14 בניינים בתכנון אדריכלי מדויק, היוצרים מרקם מגורים הרמוני ומאוזן. זהו פרויקט שנולד מתוך מחשבה על איכות חיים אמיתית, שילוב של תכנון חכם, קהילה מתגבשת וסטנדרט בנייה גבוה, הניכר בכל פרט.</p>
+            <p><strong>אדריכלות של איכות חיים</strong><br>תמהיל הדירות מגוון ומוקפד וכולל דירות 3, 4 ו-5 חדרים, דירות גן רחבות ידיים, דופלקסי קרקע, פנטהאוזים מרשימים ודירות גלריה ייחודיות. כל יחידה תוכננה מתוך תפיסה של חלל פתוח, אור טבעי וזרימה נכונה בין הפנים לחוץ, עם מפרט עשיר וחומרי גמר איכותיים. התחושה המתקבלת היא של בית שתוכנן בקפידה לא רק למגורים, אלא לאורח חיים.</p>
+            <a href="#project-contact-us" class="btn-gold">לקבלת מחירון ותוכניות</a>
+          </div>
+          <div class="about__image">
+            <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_N.webp" alt="הדמיית הפרויקט" loading="lazy">
+          </div>
         </div>
       </div>
-      <div class="card card--on-dark">
-        <form class="lead-form" data-lead-form data-source="footer" novalidate>
-          <div class="field"><label for="f-name">שם מלא</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
-          <div class="field"><label for="f-phone">טלפון נייד</label><input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required dir="ltr"></div>
-          <div class="field"><label for="f-email">דואר אלקטרוני (לא חובה)</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
-          <label class="consent"><input type="checkbox" name="consent" required><span>אני מאשר/ת קבלת פנייה ומסכים/ה ל<a href="https://crp.co.il/privacy-policy/" target="_blank" rel="noopener">מדיניות הפרטיות</a></span></label>
-          <button type="submit" class="btn btn--gold btn--lg btn--block"><span class="btn__label">תחזרו אליי</span><span class="btn__spinner" aria-hidden="true"></span></button>
-          <p class="form__error" role="alert" hidden></p>
-        </form>
-        <div class="lead-form__success" hidden>
-          <div class="success__icon">✓</div>
-          <h3>תודה! הפרטים התקבלו</h3>
-          <p>נחזור אליכם בהקדם.</p>
+    </section>
+
+    <!-- ===== Location ===== -->
+    <section id="project-location" class="location">
+      <div class="container">
+        <div class="heading">
+          <span class="heading__en">location</span>
+          <h2 class="heading__he">נתיבות-תנופה עם זהות</h2>
+          <span class="heading__line"></span>
+        </div>
+        <div class="location__content">
+          <div class="location__gallery">
+            <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_D.webp" alt="" loading="lazy" class="location__g1">
+            <img src="https://crp.co.il/wp-content/uploads/2026/02/pr_2.jpg" alt="" loading="lazy" class="location__g2">
+            <img src="https://crp.co.il/wp-content/uploads/2026/02/mig_19_01_D.webp" alt="" loading="lazy" class="location__g3">
+          </div>
+          <div class="location__panel">
+            <p>הפרויקט ממוקם בשכונת מעלות הנחל, אחת השכונות החדשות והמתפתחות בנתיבות, אזור המאופיין בתכנון מודרני, מרחבים פתוחים וסביבה קהילתית נעימה. המיקום מאפשר ליהנות משקט ואינטימיות, לצד נגישות נוחה לצירי תנועה מרכזיים, מרכזים מסחריים ושירותים עירוניים. זהו איזון מדויק בין פרטיות לנוחות יומיומית.</p>
+            <div class="location__map">
+              <iframe title="מפה: מעלות הנחל, נתיבות" src="https://www.google.com/maps?q=%D7%9E%D7%A2%D7%9C%D7%95%D7%AA+%D7%94%D7%A0%D7%97%D7%9C%2C+%D7%A0%D7%AA%D7%99%D7%91%D7%95%D7%AA&z=14&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-</main>
+    </section>
 
-<footer class="footer">
-  <div class="container footer__inner">
-    <img src="https://crp.co.il/wp-content/uploads/2026/02/LOGO-1.svg" alt="שיא רפאל פרוייקטים" class="footer__logo" onerror="this.remove()">
-    <p>שיא רפאל פרוייקטים בע״מ · הדסה 27, באר שבע · <a data-tel href="#"><span data-phone-text></span></a> · <a data-mail href="#"><span data-mail-text></span></a></p>
-    <p class="footer__legal">ההדמיות והתוכניות להמחשה בלבד ואינן מחייבות. הפרטים כפופים לשינויים ולתנאי ההסכם. ט.ל.ח. · <a href="https://crp.co.il/privacy-policy/" target="_blank" rel="noopener">מדיניות פרטיות</a> · <a href="https://crp.co.il/accessibility/" target="_blank" rel="noopener">הצהרת נגישות</a></p>
-    <p class="footer__copy">© <span data-year></span> כל הזכויות שמורות</p>
-  </div>
-</footer>
+    <!-- ===== Gallery ===== -->
+    <section id="project-design" class="design">
+      <div class="heading">
+        <span class="heading__en">design</span>
+        <h2 class="heading__he">גלריה</h2>
+        <span class="heading__line"></span>
+      </div>
+      <div class="design__slider" data-gallery>
+        <div class="design__track">
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_N.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_01_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_06_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_05_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_04_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_03_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_02_N.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_02_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_01_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_19_02_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_02_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_03_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_04_D.webp" alt="" loading="lazy"></figure>
+          <figure><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_9_05_D.webp" alt="" loading="lazy"></figure>
+        </div>
+        <button class="slider-arrow slider-arrow--prev" type="button" data-prev aria-label="הקודם"></button>
+        <button class="slider-arrow slider-arrow--next" type="button" data-next aria-label="הבא"></button>
+      </div>
+      <div class="progress container"><span data-progress></span></div>
+    </section>
+
+    <!-- ===== Floor plans ===== -->
+    <section id="project-apartment-plans" class="plans">
+      <div class="container">
+        <div class="plans__panel">
+          <div class="heading">
+            <h2 class="heading__he">תוכניות דירה</h2>
+            <span class="heading__line"></span>
+          </div>
+          <div class="plans__slider" data-plans>
+            <div class="plans__track">
+              <article><a href="https://crp.co.il/wp-content/uploads/2026/02/A.webp" data-lightbox><img src="https://crp.co.il/wp-content/uploads/2026/02/A.webp" alt="תוכנית A" loading="lazy"></a><h3>A - דירה 3 חד'</h3></article>
+              <article><a href="https://crp.co.il/wp-content/uploads/2026/02/A1.webp" data-lightbox><img src="https://crp.co.il/wp-content/uploads/2026/02/A1.webp" alt="תוכנית A1" loading="lazy"></a><h3>A1 - דירה 3 חד'</h3></article>
+              <article><a href="https://crp.co.il/wp-content/uploads/2026/02/AG.webp" data-lightbox><img src="https://crp.co.il/wp-content/uploads/2026/02/AG.webp" alt="תוכנית GA" loading="lazy"></a><h3>GA - דירת גן 3 חד'</h3></article>
+              <article><a href="https://crp.co.il/wp-content/uploads/2026/02/B.webp" data-lightbox><img src="https://crp.co.il/wp-content/uploads/2026/02/B.webp" alt="תוכנית B" loading="lazy"></a><h3>B - דירה 4 חד'</h3></article>
+              <article><a href="https://crp.co.il/wp-content/uploads/2026/02/B1.webp" data-lightbox><img src="https://crp.co.il/wp-content/uploads/2026/02/B1.webp" alt="תוכנית B1" loading="lazy"></a><h3>B1 - דירה 4 חד'</h3></article>
+              <article><a href="https://crp.co.il/wp-content/uploads/2026/02/B2.webp" data-lightbox><img src="https://crp.co.il/wp-content/uploads/2026/02/B2.webp" alt="תוכנית B2" loading="lazy"></a><h3>B2 - דירה 4 חד'</h3></article>
+              <article><a href="https://crp.co.il/wp-content/uploads/2026/02/B2G.webp" data-lightbox><img src="https://crp.co.il/wp-content/uploads/2026/02/B2G.webp" alt="תוכנית B2G" loading="lazy"></a><h3>B2G - דופלקס גן 5 חד'</h3></article>
+              <article><a href="https://crp.co.il/wp-content/uploads/2026/02/B2G1.webp" data-lightbox><img src="https://crp.co.il/wp-content/uploads/2026/02/B2G1.webp" alt="תוכנית B2G1" loading="lazy"></a><h3>B2G1 - דופלקס גן 5 חד'</h3></article>
+            </div>
+            <button class="slider-arrow slider-arrow--prev" type="button" data-prev aria-label="הקודם"></button>
+            <button class="slider-arrow slider-arrow--next" type="button" data-next aria-label="הבא"></button>
+          </div>
+          <div class="progress"><span data-progress></span></div>
+          <p class="plans__note">התוכניות להמחשה בלבד. לקבלת תוכניות מלאות, מפרט ומחירון <a href="#project-contact-us">השאירו פרטים</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="project-contact-us" class="contact">
+      <div class="contact__bg" aria-hidden="true"><img src="https://crp.co.il/wp-content/uploads/2026/02/mig_1_02_N.webp" alt="" loading="lazy"></div>
+      <div class="container">
+        <div class="contact__content">
+          <h2 class="contact__title">דברו איתנו</h2>
+          <h3 class="contact__subtitle">מוזמנים ליצור עמנו קשר ונחזור אליכם בהקדם האפשרי</h3>
+
+          <form class="cf" data-lead-form data-source="contact" novalidate>
+            <div class="cf__row">
+              <div class="cf__field">
+                <input id="fname" name="name" type="text" autocomplete="name" required placeholder=" ">
+                <label for="fname">שם מלא</label>
+              </div>
+              <div class="cf__field">
+                <input id="tel" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder=" ">
+                <label for="tel">טלפון</label>
+              </div>
+            </div>
+            <div class="cf__row">
+              <div class="cf__field">
+                <input id="email" name="email" type="email" autocomplete="email" placeholder=" ">
+                <label for="email">דואר אלקטרוני</label>
+              </div>
+            </div>
+            <div class="cf__row">
+              <label class="cf__acceptance">
+                <input type="checkbox" name="consent" required>
+                <span>קראתי ואני מסכים ל- <a href="https://crp.co.il/terms/" target="_blank" rel="noopener">תנאי השימוש</a> ו-<a href="https://crp.co.il/privacy-policy/" target="_blank" rel="noopener">מדיניות הפרטיות</a></span>
+              </label>
+            </div>
+            <button type="submit" class="cf__submit"><span class="btn__label">תחזרו אליי</span><span class="btn__spinner" aria-hidden="true"></span></button>
+            <p class="cf__error" role="alert" hidden></p>
+          </form>
+          <div class="cf__success" hidden>
+            <div class="cf__success-icon">✓</div>
+            <h3>תודה! הפרטים התקבלו</h3>
+            <p>נציג מכירות של שיא הנחלה ייצור איתכם קשר בהקדם.</p>
+            <a data-wa href="#" class="btn-gold btn-gold--wa"><svg class="ico"><use href="#i-wa"/></svg>רוצים תשובה עכשיו? דברו איתנו בוואטסאפ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img src="https://crp.co.il/wp-content/uploads/2026/02/logo_black.svg" alt="שיא רפאל פרוייקטים" class="footer__logo">
+      <ul class="footer__contact">
+        <li><a data-tel href="#"><svg class="ico"><use href="#i-phone"/></svg><span data-phone-text></span></a></li>
+        <li><a data-mail href="#"><svg class="ico"><use href="#i-mail"/></svg><span data-mail-text></span></a></li>
+        <li><svg class="ico"><use href="#i-location"/></svg>הדסה 27 באר שבע</li>
+        <li>ראשון עד חמישי: 9:00 – 16:00</li>
+      </ul>
+      <p class="footer__legal">ההדמיות והתוכניות להמחשה בלבד ואינן מחייבות. ט.ל.ח. · <a href="https://crp.co.il/privacy-policy/" target="_blank" rel="noopener">מדיניות פרטיות</a> · <a href="https://crp.co.il/accessibility/" target="_blank" rel="noopener">הצהרת נגישות</a></p>
+      <p class="footer__copy">© <span data-year></span> כל הזכויות שמורות | שיא רפאל פרוייקטים בע״מ</p>
+    </div>
+  </footer>
+
+</div><!-- /.frame -->
+
+<!-- ===== Lightbox ===== -->
+<div class="lightbox" data-lightbox-root hidden>
+  <button type="button" class="lightbox__close" data-lightbox-close aria-label="סגירה">×</button>
+  <img src="" alt="">
+</div>
 
 <!-- ===== Sticky mobile bar ===== -->
-<div class="sticky-bar" aria-label="פעולות מהירות">
-  <a data-tel href="#" class="sticky-bar__btn sticky-bar__btn--call"><span class="ico ico-phone"></span>התקשרו</a>
-  <a data-wa href="#" class="sticky-bar__btn sticky-bar__btn--wa"><span class="ico ico-wa"></span>וואטסאפ</a>
-  <a href="#lead" class="sticky-bar__btn sticky-bar__btn--lead">השאירו פרטים</a>
+<div class="sticky-bar">
+  <a data-tel href="#" class="sticky-bar__btn sticky-bar__btn--call"><svg class="ico"><use href="#i-phone"/></svg>התקשרו</a>
+  <a data-wa href="#" class="sticky-bar__btn sticky-bar__btn--wa"><svg class="ico"><use href="#i-wa"/></svg>וואטסאפ</a>
+  <a href="#project-contact-us" class="sticky-bar__btn sticky-bar__btn--lead">השאירו פרטים</a>
 </div>
 
 <!-- ===== Floating WhatsApp (desktop) ===== -->
-<a data-wa href="#" class="wa-float" aria-label="שיחת וואטסאפ"><span class="ico ico-wa"></span></a>
+<a data-wa href="#" class="wa-float" aria-label="שיחת וואטסאפ"><svg class="ico"><use href="#i-wa"/></svg></a>
 
 <script src="js/main.js"></script>
 </body>
